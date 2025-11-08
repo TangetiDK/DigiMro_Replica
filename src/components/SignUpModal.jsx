@@ -581,7 +581,7 @@ export default function SignUpModal({ isOpen, onClose, onOpenLogin }) {
             border="none"
             outline="none"
             _hover={{ 
-              bg: "gray.100",
+              bg: "black",
               border: "none",
               outline: "none",
               boxShadow: "none"
