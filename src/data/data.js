@@ -8,7 +8,7 @@ import Honeywell from "../assets/Honeywell.png";
 import Eonav from "../assets/eonav.jpeg";
 import Systemsensor from "../assets/systemSensor.png";
 import Morleyias from "../assets/morley.png";
-import Hid from "../assets/hid.png";
+import Hid from "../assets/HID.png";
 import Gst from "../assets/gst.png";
 import Bosch from "../assets/bosch.png";
 import Westerndigital from "../assets/westerndigital.png";
