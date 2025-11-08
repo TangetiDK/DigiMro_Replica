@@ -13,7 +13,6 @@ import {
 import { FaTimes, FaBox, FaTruck, FaHeadset, FaEye, FaEyeSlash, FaArrowLeft, FaCheck } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 import { useState } from "react";
-import SignUpModal from "./SignUpModal";
 
 export default function LoginModal({ isOpen, onClose }) {
   const [formData, setFormData] = useState({
@@ -24,18 +23,6 @@ export default function LoginModal({ isOpen, onClose }) {
   const [forgotPasswordEmail, setForgotPasswordEmail] = useState("");
   const [showPassword, setShowPassword] = useState(false);
   const [showForgotPassword, setShowForgotPassword] = useState(false);
-
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  const handleOpenModal = (e) => {
-    e.preventDefault();
-    handleClose();
-    setIsModalOpen(true);
-  };
-
-  const handleCloseModal = () => {
-    setIsModalOpen(false);
-  };
 
   if (!isOpen) return null;
 
@@ -784,7 +771,6 @@ export default function LoginModal({ isOpen, onClose }) {
                   fontSize="sm"
                   fontWeight="medium"
                   _hover={{ textDecoration: "underline" }}
-                  onClick={handleOpenModal}
                 >
                   Become A Customer
                 </Link>
@@ -795,7 +781,6 @@ export default function LoginModal({ isOpen, onClose }) {
           )}
         </Box>
       </Box>
-      <SignUpModal isOpen={isModalOpen} onClose={handleCloseModal} />
     </Box>
   );
 }
