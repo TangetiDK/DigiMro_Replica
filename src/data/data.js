@@ -48,7 +48,7 @@ import Eaton from "../assets/eaton.jpeg";
 import Headphones from "../assets/HEADPHONES.png";
 import Vesda from "../assets/vesda.jpeg";
 import WesternDigitalAlt from "../assets/westernDigitall.jpeg";
-import SystemSensorAlt from "../assets/system sensor.jpeg";
+import SystemSensorAlt from "../assets/systemsensor.jpeg";
 import SystemSensor from "../assets/systemSensor.png";
 import BoschAlt from "../assets/Bosch.jpeg";
 
