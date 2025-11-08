@@ -6,7 +6,7 @@
 // Trending Brands Assets
 import Honeywell from "../assets/Honeywell.png";
 import Eonav from "../assets/eonav.jpeg";
-import Systemsensor from "../assets/system sensor.png";
+import Systemsensor from "../assets/systemSensor.png";
 import Morleyias from "../assets/morley.png";
 import Hid from "../assets/hid.png";
 import Gst from "../assets/gst.png";
