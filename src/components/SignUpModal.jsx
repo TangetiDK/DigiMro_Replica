@@ -571,7 +571,7 @@ export default function SignUpModal({ isOpen, onClose, onOpenLogin }) {
         <FaTimes size={12} />
       </IconButton>
       <Box as="form" onSubmit={handleCompanyDetailsSubmit}>
-        <Flex align="center" gap={3} mb={{ base: 4, md: 6 }} mt={{ base: 10, md: 0 }}>
+        <Flex align="center" gap={1} mb={{ base: 4, md: 6 }} mt={{ base: 10, md: 0 }}>
           <Button
             aria-label="Back"
             variant="ghost"
