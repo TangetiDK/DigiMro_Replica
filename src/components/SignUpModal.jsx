@@ -572,14 +572,13 @@ export default function SignUpModal({ isOpen, onClose, onOpenLogin }) {
       </IconButton>
       <Box as="form" onSubmit={handleCompanyDetailsSubmit}>
         <Flex align="center" gap={3} mb={{ base: 4, md: 6 }} mt={{ base: 10, md: 0 }}>
-          <IconButton
+          <Button
             aria-label="Back"
-            icon={<FaChevronLeft />}
             variant="ghost"
             size="sm"
-            color="gray.600"
             border="none"
             outline="none"
+            onClick={handleBack}
             _hover={{ 
               bg: "black",
               border: "none",
@@ -602,7 +601,7 @@ export default function SignUpModal({ isOpen, onClose, onOpenLogin }) {
               outline: "none",
               boxShadow: "none"
             }}
-          />
+          ><FaChevronLeft color="white"/></Button>Button>
           <Heading
             as="h2"
             fontSize={{ base: "lg", md: "2xl" }}
