@@ -13,6 +13,7 @@ import {
 import { FaTimes, FaBox, FaTruck, FaHeadset, FaEye, FaEyeSlash, FaArrowLeft, FaCheck } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 import { useState } from "react";
+import SignUpModal from "./SignUpModal";
 
 export default function LoginModal({ isOpen, onClose }) {
   const [formData, setFormData] = useState({
