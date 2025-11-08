@@ -29,6 +29,7 @@ export default function LoginModal({ isOpen, onClose }) {
 
   const handleOpenModal = () => {
     setIsModalOpen(true);
+    handleClose();
   };
 
   const handleCloseModal = () => {
