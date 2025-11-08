@@ -27,7 +27,7 @@ export default function LoginModal({ isOpen, onClose }) {
 
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const handleOpenModal = () => {
+  const handleOpenModal = (e) => {
     e.preventDefault();
     handleClose();
     setIsModalOpen(true);
