@@ -24,7 +24,7 @@ import impactHoneywell from "../assets/impact.jpeg";
 import cbc from "../assets/CBCgroup.png";
 import honeywellCCTV from "../assets/Honeywell.png";
 import eonsecureCCTV from "../assets/eonsecure.jpeg";
-import boschCCTV from "../assets/BOSCH.png";
+import boschCCTV from "../assets/bosch.png";
 
 // Product Carousel Assets
 import Accesories from "../assets/Accesories.png";
