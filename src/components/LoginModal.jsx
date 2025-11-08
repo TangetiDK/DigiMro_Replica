@@ -24,6 +24,16 @@ export default function LoginModal({ isOpen, onClose }) {
   const [showPassword, setShowPassword] = useState(false);
   const [showForgotPassword, setShowForgotPassword] = useState(false);
 
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleOpenModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+  };
+
   if (!isOpen) return null;
 
   const handleInputChange = (e) => {
@@ -771,6 +781,7 @@ export default function LoginModal({ isOpen, onClose }) {
                   fontSize="sm"
                   fontWeight="medium"
                   _hover={{ textDecoration: "underline" }}
+                  onClick={handleOpenModal}
                 >
                   Become A Customer
                 </Link>
@@ -781,6 +792,7 @@ export default function LoginModal({ isOpen, onClose }) {
           )}
         </Box>
       </Box>
+      <SignUpModal isOpen={isModalOpen} onClose={handleCloseModal} />
     </Box>
   );
 }
