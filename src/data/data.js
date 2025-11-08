@@ -11,7 +11,7 @@ import Morleyias from "../assets/morley.png";
 import Hid from "../assets/HID.png";
 import Gst from "../assets/gst.png";
 import Bosch from "../assets/bosch.png";
-import Westerndigital from "../assets/westerndigital.png";
+import Westerndigital from "../assets/westernDigital.png";
 import Idemia from "../assets/Idmia.png";
 import Texecom from "../assets/texecom.png";
 import Eonsecure from "../assets/eonsecure.jpeg";
