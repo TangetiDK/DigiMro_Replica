@@ -604,7 +604,7 @@ export default function SignUpModal({ isOpen, onClose, onOpenLogin }) {
           ><FaChevronLeft color="white"/></Button>Button>
           <Heading
             as="h2"
-            fontSize={{ base: "lg", md: "2xl" }}
+            fontSize={{ base: "lg", md: "md", lg: "lg" }}
             fontWeight="bold"
             color="gray.800"
           >
